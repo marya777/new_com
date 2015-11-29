@@ -1,0 +1,211 @@
+/* Containers */
+.goods-catalog {
+/*overflow:hidden;*/
+}
+
+.catalog-inner {
+    float: left;
+    width: 100%;
+}
+
+/* Grid catalog */
+.goods-catalog .grid,
+.goods-insert .grid {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 20px 10px 0;
+    position: relative;
+    overflow: hidden;
+	margin-left: 20px;
+}
+.goods-insert .grid {
+    width: 200px;
+}
+.goods-insert p {
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+}
+/* Sidebar */
+
+.goods-sidebar {
+    float: left;
+    line-height: 2;
+}
+.goods-sidebar ul {
+    list-style: none;
+}
+.goods-sidebar li {
+    width: 100%;
+}
+.goods-sidebar ul.children {
+    margin-left: 10px; 
+}
+.goods-sidebar .widgettitle {
+    margin-bottom: 20px;
+}
+.goods-sidebar input[type="submit"],
+.goods-sidebar select {
+    width: 100%;
+}
+/* Style products and categories */
+.goods-catalog h2 {
+    font-size: 26px;
+    margin: 20 0 25px 0;
+}
+.goods-catalog p {
+    margin: 0px 0 0px 0;
+    line-height: 1.5;
+	
+}
+
+.goods-category-list-title, 
+.goods-item-title {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+	color: #868585;
+}
+.goods-item-title a {
+    color: #868585;
+    text-decoration: none;
+	font-family: menuet;
+	font-size:25px;
+}
+@font-face {
+  font-family: "menuet";
+  src: url("YanoneKaffeesatz-Regular.otf")  format('truetype')
+}
+.goods-category-thumb-container,
+.goods-item-thumb-container {
+    margin: 10px 0;
+    text-align: center;
+}
+.goods-single-thumb-container {
+    float: left;
+    margin:  20px 20px 0;
+}
+
+.goods-category-thumb,
+.goods-item-thumb,
+.goods-single-thumb {
+    border: 1px solid #aaa;
+}
+/* set width */
+.goods-info {
+    float: left;
+}
+.goods-price {
+    font-weight: bold;
+}
+.goods-price-single {
+    font-size: 16px;
+    color: #868585;
+   	font-family: menuet;
+	font-size:25px;
+	text-align:center;
+}
+
+.single-category-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    clear: none;
+	margin-left: 20px;
+	color: black;
+}
+
+/* Pagination */
+.goods-pagination {
+    clear: both;
+    padding: 20px 0 20px 0;
+    position: relative;
+}
+
+.goods-pagination span, .goods-pagination a {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+    padding: 6px 9px 5px 9px;
+    font-weight: normal;
+    text-decoration: none;
+    width: auto;
+    color: #333;
+    background: #F5F5F5;
+}
+
+.goods-pagination a:hover {
+    color: #FFF;
+    background: #999;
+}
+
+.goods-pagination .current {
+    padding: 6px 9px 5px 9px;
+    background: #999;
+    color: #FFF;
+}
+
+/*
+* Breadcrumbs
+*/
+.goods-catalog .breadcrumbs {
+    margin: 10px  20px 0;
+}
+
+/* Common */
+.clear {
+    clear: both;
+}
+
+/* Shortcodes */
+.goods-tile {
+    width: 300px;
+}
+.entry-content
+{
+	
+    margin-left: 20px;
+
+}
+
+.entry-title  a, 
+.goods-descr, 
+.entry-title,
+.breadcrumbs a,
+.goods-item-title a,
+.single-category-title,
+.goods-info p,
+.goods-category-list-title a
+{
+    color: #868585;
+    text-decoration: none;
+	font-family: menuet;
+	font-size:25px;
+}
+
+.breadcrumbs
+
+{
+    color: #868585;
+    text-decoration: none;
+	font-family: menuet;
+	font-size:25px;
+}
+.single-category-title 
+{
+    color: #868585;
+    text-decoration: none;
+	font-family: menuet;
+	font-size:30px;
+	letter-spacing: 5px;
+}
+@font-face {
+  font-family: "menuet";
+  src: url("YanoneKaffeesatz-Regular.otf")  format('truetype')
+}
+.goods-item-content p :hover{color:black}
+.goods-item-title :hover{color:black}
